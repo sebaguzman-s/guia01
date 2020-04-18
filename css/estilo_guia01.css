@@ -1,0 +1,36 @@
+
+#principal{
+    color:#734A3C;
+}
+#tema{
+    color:#8C807B;
+}
+
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 2em;
+		background-color:#40302B;
+		text-decoration: none;
+		color:#734A3C;
+	}
+	.menuCSS3 a:hover {
+		background-color:#40302B;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+aside{
+        float: right;
+        width: 30%;
+ }
+ 
+ 
